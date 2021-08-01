@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Learnings_TMA">
+	
+	<listeners>
+		<listener class-name = "testcases.Extent_Report"/>
+	</listeners>
+	
+	<test name = "Learnings_TMA_testcases">
+		<classes>
+			<class name = "testcases.Home_Page_Test"></class>
+		</classes>
+	</test>
+	
+	
+</suite>
