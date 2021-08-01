@@ -41,7 +41,7 @@ public class Passenger_Details_Test extends Test_Base
 	@Test
 	public void passengerPageTest() throws Exception
 	{
-		passengerPage.fillPassengerDetails("MRS", "TUSHAR", "SINGH", "7906454871", "tushar.singh.mm@gmail.com", "BENGALURU");
+		passengerPage.fillPassengerDetails("MR", "MainAttacker", "SINGH", "contact_number", "email_id", "BENGALURU");
 		Assert.assertEquals(driver.getCurrentUrl(), "https://book.spicejet.com/SeatMapFromPayment.aspx");
 		Thread.sleep(5000);
 	}
